@@ -495,7 +495,9 @@ nav ul li:hover::after{
          width: 300px;
          height: 300px;
      }
-     .logo-footer img{width: 70%};
+     .logo-footer img
+     {
+         width: 70%;
     }
 
 }
