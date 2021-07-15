@@ -60,10 +60,8 @@ nav ul li::after{
     content: '';
     width: 0%;
     height: 2px;
-    /* background-color: #f44336; */
     display: block;
     margin: auto;
-    /* transition: 0.5s; */
 }
 nav ul li:hover::after{
     width:90% ;
@@ -74,9 +72,6 @@ nav ul li:hover::after{
     right: 124px;
     top: 20px;
 }
-/* .login:hover{
-    transform: scale(1) skew(10deg);
-} */
 .login  li{
     list-style: none;
     display: inline;
@@ -116,7 +111,6 @@ nav ul li:hover::after{
 #check{
     display: none;
 }
-/* End nav style */
 
 /* Intro-style */
 .Intro-container{
@@ -178,23 +172,10 @@ nav ul li:hover::after{
     padding-left: 8px;
     
 }
-/* end intro style */
 /* player style */
 .title{
     text-align:center;
 }
- /*.title::after{
-    content: '';
-    width: 0%;
-    height: 2px;
-    background-color: #f44336;
-    display: block;
-    margin: auto;
-    transition: 0.5s;
-}
- .title:hover::after{
-    width:100% ;
-}  */
 .players{
     display: grid;
     grid-template-columns: repeat(3,3fr);
@@ -225,29 +206,8 @@ nav ul li:hover::after{
 
 .player-info p{
   
-    text-align: left;
-    
+    text-align: left;   
 }
-/* .player-info p:hover{
-    border: 1px solid #0082e6;
- } */
-    
-/* .player-info a{
-    box-shadow: 2px  gray;
-    
-    background-color: rgba(224, 44, 110, 0.514);
-    font-size: 16px;
-    text-decoration: none;
-    color: white;
-    
-    position: relative;
-    bottom: 5px;
-    
-}
-.player-info a:hover{
-    border: 1px solid #0082e6;
-} */
-/* end player style */
 /* Highlights style */
 .flexible-container{
     display: flex;
@@ -303,24 +263,11 @@ nav ul li:hover::after{
     margin-top: 10px;
     
 }
-/* end hightlights style */
 /* transfer style  */
 .transfer-container h2{
     text-align: center;
     margin-bottom: 50px;
 }
-/*.winner-container h2::after{
-    content: '';
-    width: 0%;
-    height: 2px;
-    background-color: #f44336;
-    display: block;
-    margin: auto;
-    transition: 0.5s;
-}
- .winner-container h2:hover::after{
-    width:90% ;
-} */
 .transfers{
     
      display: grid;
@@ -341,23 +288,8 @@ nav ul li:hover::after{
 .transfer h3{
     text-align: center;
 }
-/*.winner h3::after{
-    content: '';
-    width: 0%;
-    height: 2px;
-    background-color: #f44336;
-    display: block;
-    margin: auto;
-    transition: 0.5s;
-}
- .winner h3:hover::after{
-    width:90% ;
-} */
 
-
-/* end transfer style */
-
-/* list in video style */
+/* My video style */
 .video-container h2{
     text-align: center;
 }
@@ -373,9 +305,6 @@ nav ul li:hover::after{
 .video-container h2:hover::after{
     width:20% ;
 }
-/* .video-container iframe:hover{
-    box-shadow: 0 0 40px #0082e6;
-} */
 
 /* footer style */
 .footer{
@@ -399,7 +328,6 @@ nav ul li:hover::after{
 .icon-footer i:hover{
     box-shadow: 0 0 40px tomato;
 }
-/* end footer style */
 
 
 /* Media queries */
@@ -489,7 +417,7 @@ nav ul li:hover::after{
         left: 30px;
      }
      /* Media queries for transfer list video*/
-     .video-container iframe{
+     .video-container{
          width: 300px;
          height: 300px;
      }
