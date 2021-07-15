@@ -7,8 +7,8 @@ body{
     margin: 0;
     padding: 0;
 }
-span:hover{
-   color: blueviolet;
+span{
+   color: rgb(43, 46, 226);
 }
 
 
@@ -74,9 +74,9 @@ nav ul li:hover::after{
     right: 124px;
     top: 20px;
 }
-.login:hover{
+/* .login:hover{
     transform: scale(1) skew(10deg);
-}
+} */
 .login  li{
     list-style: none;
     display: inline;
@@ -94,7 +94,7 @@ nav ul li:hover::after{
 .btn{
     box-shadow: 5px  gray;
     padding: 10px;
-    background-color: #E02C6D;
+    background-color:#E02C6D;
     
 
 }
@@ -136,6 +136,7 @@ nav ul li:hover::after{
     position: relative;
     top: 157px;
     transition: transform 1s ease-out 0.2s;
+    transform: scale(1) skew(10deg);
 }
 .half-width img:hover{
     transform: translate(100px,-100px);
@@ -388,8 +389,8 @@ nav ul li:hover::after{
 }
 .icon-footer{
     font-size: 2.2em;
-    /* color: lightsteelblue;
-     */
+    color: lightsteelblue;
+    
 
 
 }
@@ -494,7 +495,7 @@ nav ul li:hover::after{
          width: 300px;
          height: 300px;
      }
-     .logo-footer img{width: 70%;
+     .logo-footer img{width: 70%};
     }
 
 }
