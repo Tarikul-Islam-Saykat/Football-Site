@@ -304,8 +304,8 @@ nav ul li:hover::after{
     
 }
 /* end hightlights style */
-/* winner style  */
-.winner-container h2{
+/* transfer style  */
+.transfer-container h2{
     text-align: center;
     margin-bottom: 50px;
 }
@@ -321,7 +321,7 @@ nav ul li:hover::after{
  .winner-container h2:hover::after{
     width:90% ;
 } */
-.winners{
+.transfers{
     
      display: grid;
     grid-template-columns: repeat(4,4fr);
@@ -329,16 +329,16 @@ nav ul li:hover::after{
      
 }
 
-.winner img{
+.transfer img{
     width: 300px;
     height: 250px;
    
 }
-.winner img:hover{
+.transfer img:hover{
     box-shadow: 0 0 40px #2e2d2d;
     
 }
-.winner h3{
+.transfer h3{
     text-align: center;
 }
 /*.winner h3::after{
@@ -355,7 +355,7 @@ nav ul li:hover::after{
 } */
 
 
-/* end winner style */
+/* end transfer style */
 
 /* list in video style */
 .video-container h2{
@@ -389,7 +389,6 @@ nav ul li:hover::after{
 .icon-footer{
     font-size: 2.2em;
     color: lightsteelblue;
-    
 
 
 }
@@ -437,7 +436,7 @@ nav ul li:hover::after{
         margin-top: 30px;
     }
     /* Media queries for player */
-    .players,.winners{
+    .players,.transfers{
         grid-template-columns: repeat(1,1fr);
     }
     .player{
@@ -484,12 +483,12 @@ nav ul li:hover::after{
          display: flex;
          width: 80%;
      }
-     /* Media queries for winner list*/
-     .winner{
+     /* Media queries for transfer list*/
+     .transfer{
          position: relative;
         left: 30px;
      }
-     /* Media queries for winner list video*/
+     /* Media queries for transfer list video*/
      .video-container iframe{
          width: 300px;
          height: 300px;
